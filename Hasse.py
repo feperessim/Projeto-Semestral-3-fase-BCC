@@ -32,7 +32,7 @@ class Hasse(object):
         Construtor da classe. Espera uma instância
         de um objeto do tipo Set como argumento.
         Assume-se que o objeto seja um 'poset'.
-        Atribui o objeto a vatiável de instância
+        Atribui o objeto a variável de instância
         e inicializa os objetos emin e emax, que
         são os elementos mínimos e máximos
         '''
