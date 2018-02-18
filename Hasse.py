@@ -34,7 +34,7 @@ class Hasse(object):
         Assume-se que o objeto seja um 'poset'.
         Atribui o objeto a variável de instância
         e inicializa os objetos emin e emax, que
-        são os elementos mínimos e máximos
+        são os elementos mínimos e máximos.
         '''
         self.poset = poset            
         self.emin = self.minElements()
