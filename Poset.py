@@ -119,7 +119,7 @@ class Set(object):
                     aRb = True
                     for tupla in self.R:
                         if b == tupla[0] and a == tupla[1]:
-                            aRb = True
+                            bRa = True
                             break
                     if aRb and bRa:
                         return False
